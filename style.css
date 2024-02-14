@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+.txt h1 {
+    transform: scale(0.5);
+}
+.active .txt h1 {
+    transition-duration: 1.5s;
+    transform: scale(1.2);
+}
+.txt p {
+    transform: scale(0.8);
+    font-size: large;
+}
+.active .txt p {
+    transition-duration: 1.5s;
+    transform: scale(1.1);
+    font-size: large;
+}
+.about span {
+    color: aqua;
+    font-size: x-large;
+}
+.about span::after {
+    content: "";
+    animation-name: word;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes word {
+    0% {
+        content: "|";
+    }
+    10% {
+        content: "so|";
+    }
+    20% {
+        content: "softw|";
+    }
+    30% {
+        content: "softwares|";
+    }
+    40% {
+        content: "|";
+    }
+    50% {
+        content: "aa|";
+    }
+    60% {
+        content: "aaps|";
+    }
+    70% {
+        content: "|";
+    }
+    80% {
+        content: "web|";
+    }
+    90% {
+        content: "websi|";
+    }
+    100% {
+        content: "websites|";
+    }
+}
+
+.team {
+    margin-top: 100px;
+    padding-top: 80px;
+}
+
+.box .team-image .txt {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 255, 0.538);
+    transition-duration: 1s;
+    bottom: -1000px;
+}
+.box .team-image .txt h4 {
+    margin-top: 100px;
+}
+.team-image {
+    height: 250px;
+}
+.team-image img {
+    width: 100%;
+    height: 100%;
+}
+.team-image:hover .txt {
+    bottom: 0;
+    right: 0;
+}
+
+.service {
+    margin-top: 100px;
+}
+.service ul {
+    list-style: none;
+}
+
+.service .ser li {
+    margin-bottom: 10px;
+}
+.service .ser li i {
+    margin: 5px;
+}
+
+.price h3 {
+    font-size: xx-large;
+}
+.price .parent {
+    margin-top: 40px;
+}
+.price .box {
+    padding: 20px;
+    padding-top: 50px;
+    height: 350px;
+}
+.best {
+    height: 400px !important;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+.price .box .p {
+    border: 1px solid;
+    border-color: transparent transparent gray transparent;
+}
+.price .box .p span {
+    font-size: small;
+    padding-left: 20px;
+}
+.price .box .p p {
+    font-size: xx-large;
+}
+.price .box .p p::after {
+    content: "$";
+    font-size: large;
+    position: absolute;
+    left: -10px;
+}
+
+.price .box ul {
+    list-style: none;
+}
+.price .box ul li {
+    margin-bottom: 8px;
+    color: gray;
+}
+
+.price .box ul li button {
+    background-color: rgb(7, 158, 208);
+    color: whitesmoke;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 100px;
+}
+.customer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.customer img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    left: 41%;
+}
+
+.customer h3 {
+    padding-top: 150px;
+}
+.customer p {
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+}
+
+span i {
+    font-size: x-large;
+}
+.map,
+form {
+    width: 45%;
+    margin-left: 10px;
+}
+
+label {
+    width: 100%;
+    margin-top: 10px;
+}
+input {
+    width: 75%;
+}
+#message {
+    height: 250px;
+}
+form button {
+    display: block;
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 30%;
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+}
+@media (max-width: 773px) {
+    .service .ser li {
+        margin-left: 10px;
+    }
+    .concat {
+        flex-direction: column !important;
+    }
+    .map,
+    form {
+        width: 100%;
+        margin: 20px;
+    }
+
+    input {
+        width: 80%;
+        padding-left: 10px;
+    }
+    form button {
+        width: 40%;
+    }
+}

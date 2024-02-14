@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">BAZEL</a>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#about"
+                                >About</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#team"
+                                >Team</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#service"
+                                >Services</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#price"
+                                >Pricing</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#concat"
+                                >Conact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide mt-5"
+            data-bs-ride="carousel"
+        >
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active bg-light"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                    class=" bg-light"
+                >
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active position-relative" data-bs-interval="10000">
+                    <img src="img1.png" class="d-block w-100" alt="..." />
+                    <div class="txt position-absolute top-50 start-50 translate-middle text-light" >
+                        <h1 class="m-5">
+                            Create With Bzel
+                        </h1>
+                        <p class="text-light">
+                            We are an innovative company making digital stuff
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img2.png" class="d-block w-100" alt="..." />
+                    <div class="txt position-absolute top-50 start-50 translate-middle text-light" >
+                        <h1 class="m-5">
+                            Get Awesome
+                        </h1>
+                        <p class="text-light">
+                            we help ambitious combanies create new value
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev "
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next "
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden ">Next</span>
+            </button>
+        </div>
+        
+            <div class="about container row position-relative m-5" id="about">
+            <h3 class="col-6 offset-5 ">WHO WE ARE</h3>
+            <p class="col-8 offset-2 text-center text-muted ">
+                We are an innovative company. We develop and design <span></span>
+                costumers around the world. Our clients are some of the most forward-looking companies in the world.
+            </p>
+            <button class="w-25 h-50 position-relative bottom-0 start-50 translate-middle-x  border border-3 border-light">
+                READ MORE</button>
+        </div>
+        <div class="team border border-bottom-0 border-start-0 border-end-0 border-1 border-secondary  " id="team">
+            <h2 class="text-center">Creative Team</h2>
+            <h3 class="text-muted text-center">We are digital thinkers</h3>
+            <div class="container-fluid  mt-5 row justify-content-center">
+                <div class="box mb-5 overflow-hidden  col-lg-3 col-md-6 col-sm-12">
+                    <div class="team-image position-relative overflow-hidden">
+                    <img src="img3.png" alt="">
+                    <div class="txt">
+                        <h4>
+                            hossam Emad
+                        </h4>
+                        <span>Founder</span>
+                    </div>
+                </div>
+                </div>
+                <div class="box mb-5 overflow-hidden  col-lg-3 col-md-6 col-sm-12">
+                    <div class="team-image position-relative overflow-hidden">
+                    <img src="img4.png" alt="">
+                    <div class="txt">
+                        <h4>
+                            nana
+                        </h4>
+                        <span>ceo</span>
+                    </div>
+                </div>
+                </div>
+                <div class="box mb-5 overflow-hidden  col-lg-3 col-md-6 col-sm-12">
+                    <div class="team-image position-relative overflow-hidden">
+                    <img src="img5.png" alt="">
+                    <div class="txt">
+                        <h4>
+                            memo
+                        </h4>
+                        <span>Front-end</span>
+                    </div>
+                </div>
+                </div>
+                <div class="box mb-5 overflow-hidden  col-lg-3 col-md-6 col-sm-12">
+                    <div class="team-image position-relative overflow-hidden">
+                    <img src="img6.png" alt="">
+                    <div class="txt">
+                        <h4>
+                            julie
+                        </h4>
+                        <span>Back-end</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="service container-fluid bg-secondary text-light" id="service">
+            <div class="container pt-5 pb-5">
+                <ul class="container-fluid d-flex justify-content-between">
+                <li>STUNNING DESIGN</li>
+                <li>TIME SAVER</li>
+                <li>CLEAN CODE</li>
+                <li>CUSTOMIZABLE</li>
+                <li>PERFECT LAYOUT</li>
+                <li>RETINA READY</li>
+            </ul>
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="txt w-50 ">
+                    <h3>What We Do.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aliquam ipsam ullam incidunt itaque nemo omnis temporibus totam quibusdam repellat vero
+                        , recusandae excepturi dignissimos velit et alias amet, quia facilis perferendis.
+                    </p>
+                </div>
+                <ul class="ser d-flex flex-row flex-wrap w-50">
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>Research</li>
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>Opportunity Analysis</li>
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>Consulting</li>
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>Brand Planning</li>
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>Customer Support</li>
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>Logo & Branding</li>
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>Style guides</li>
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>Motion graphics</li>
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>UX/UI-design</li>
+                    <li class="w-50"><i class="fa-solid fa-circle-check"></i>Social media design</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="price mt-5" id="price">
+            <h3 class="text-center">
+                Cheap Prices
+            </h3>
+            <p class="text-center text-muted">We provide the best quality.</p>
+            <div class="container-fluid mt-3 row  justify-content-center">
+                <div class="parent  col-lg-3 col-md-6">
+                    <div class="box overflow-hidden  bg-light ">
+                    <div class="p">
+                        <span>starer</span>
+                        <p class="ms-4 mt-2 position-relative">9</p>
+                    </div>
+                    <ul class="mt-4">
+                        <li>Unlimited Connections</li>
+                        <li>24/7 Support</li>
+                        <li>Full SSL Protection</li>
+                        <li>Unlimited Channels</li>
+                        <li><button class="rounded-1">sign up</button></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="parent col-lg-3 col-md-6">
+                    <div class="box overflow-hidden  bg-light ">
+                    <div class="p">
+                        <span>Silver</span>
+                        <p class="ms-4 mt-2 position-relative">19</p>
+                    </div>
+                    <ul class="mt-4">
+                        <li>Unlimited Connections</li>
+                        <li>24/7 Support</li>
+                        <li>Full SSL Protection</li>
+                        <li>Unlimited Channels</li>
+                        <li><button class="rounded-1">sign up</button></li>
+                    </ul>
+                </div>
+                </div>
+                <div class=" parent col-lg-3 col-md-6">
+                    <div class="box best  bg-light ">
+                    <div class="p">
+                        <span>Gold</span>
+                        <span class="val bg-info text-white rounded text-center pe-2 ms-5 mt-1">
+                            BEST VALUE
+                        </span>
+                        <p class="ms-4 mt-2 position-relative text-info">29</p>
+                    </div>
+                    <ul class="mt-4">
+                        <li>Unlimited Connections</li>
+                        <li>24/7 Support</li>
+                        <li>Full SSL Protection</li>
+                        <li>Unlimited Channels</li>
+                        <li><button class="rounded-1">sign up</button></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="parent col-lg-3 col-md-6">
+                    <div class="box overflow-hidden  bg-light ">
+                    <div class="p">
+                        <span >Platinum</span>
+                        <p class="ms-4 mt-2 position-relative">49</p>
+                    </div>
+                    <ul class="mt-4">
+                        <li>Unlimited Connections</li>
+                        <li>24/7 Support</li>
+                        <li>Full SSL Protection</li>
+                        <li>Unlimited Channels</li>
+                        <li><button class="rounded-1">sign up</button></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <h2 class="text-center pb-5 pt-5 ">HAPPY CUSTOMERS</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+        <div class="box container ">
+                <div class="customer text-center position-relative container bg-light">
+                    <img src="img4.png" class="rounded-circle " alt="" >
+                    <h3 class="text-black">Marissa Mayer</h3>
+                    <p class="text-muted">Quo rem cumque facere modi beatae. Deleniti nisi, repellat quae aspernatur consequatur consequuntur,
+                    fugit asperiores delectus beatae. Quae veniam, 
+                    quidem cupiditate quia? Ut iste deleniti.</p>
+                </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="box container">
+                <div class="customer text-center position-relative container bg-light">
+                    <img src="img3.png" class="rounded-circle " alt="" >
+                    <h3 class="text-black">Mark Zuckerberg</h3>
+                    <p class="text-muted">Consectetur adipisicing elit. Perspiciatis aperiam quaerat iure veritatis fugit debitis, repellat aut
+                    accusantium culpa ipsum ex ipsa blanditiis recusandae, 
+                    sit similique, eius assumenda porro pariatur.</p>
+                </div>
+            </div>
+    </div>
+    
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="text-black"><i class="fa-solid fa-arrow-left"></i></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="text-black"><i class="fa-solid fa-arrow-right"></i></span>
+    </button>
+</div>
+        </div>
+        <div class="concat d-flex justify-content-between flex-wrap" id="concat">
+            <div class="map  mt-3 mb-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.0232760814417!2d31.007342130353816!3d30.659506652049416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7d1824dba578b%3A0x69e4b01e1a87090b!2z2YXZhtiy2YQg2LnZhdin2K8g2LnYqNiv2Ycg2KfZhNiz2YrYrw!5e0!3m2!1sar!2seg!4v1689499075295!5m2!1sar!2seg" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <form action="">
+                <label for="user">Your Name</label>
+                <input type="text" id="user" required>
+                <label for="mail">Your Email</label>
+                <input type="email" id="mail" required>
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone">
+                <label for="message"> Your Message</label>
+                <input type="text" id="message" required>
+                <button>Send Message</button>
+            </form>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
